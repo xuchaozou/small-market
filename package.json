@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "art-template": "^4.13.2",
+    "axios": "^0.20.0",
     "core-js": "^3.6.5",
+    "express-art-template": "^1.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.4.3",
     "vuex": "^3.5.1"
