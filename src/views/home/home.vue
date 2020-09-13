@@ -5,27 +5,22 @@
         <h2>购物街</h2>
       </template>
     </nav-bar>
+    <swiper></swiper>
   </div>
 </template>
 
 <script>
 import NavBar from 'components/common/navbar/NavBar';
-import {getHomeMultiData} from 'network/home'
+import swiper from './swiper'
 export default {
   data(){
     return {
-      result : null
+      banners : []
     }
   },
   components : {
-    NavBar
-  },
-  created(){
-    getHomeMultiData().then(res => {
-      console.log(res)
-    }).catch(function(error){
-      console.log(error)
-    })
+    NavBar,
+    swiper
   }
 }
 </script>

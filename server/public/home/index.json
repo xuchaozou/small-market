@@ -1,0 +1,18 @@
+{
+    "banners" : [{
+        "img" : "/public/home/img/banner/banner_1_1060_370.jpg",
+        "href" : "#"
+    },{
+        "img" : "/public/home/img/banner/banner_2_750_260.webp",
+        "href" : "#"
+    },{
+        "img" : "/public/home/img/banner/banner_3_750_260.webp",
+        "href" : "#"   
+    },{
+        "img" : "/public/home/img/banner/banner_4_750_260.webp",
+        "href" : "#"
+    },{
+        "img" : "/public/home/img/banner/banner_5_750_260.webp",
+        "href" : "#"
+    }]
+}
